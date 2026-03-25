@@ -3,7 +3,7 @@ Programa soma
 Descrição: Este programa lê dois números do teclado, calcula a soma e coloca o resultado na tela.
 Autor: Filipe
 Data: 24/03/2026
-Versão: 0.0.1
+Versão: 0.0.3
 """
 
 #alocação de memória
@@ -15,7 +15,7 @@ i = 0
 #Entrada de dados
 
 while i < 2:
-  num = (int(input(f"Digite o {i + 1}º número")))
+  num = (int(input(f"Digite o {i + 1}º número: ")))
   r = r + num
   i += 1
 
