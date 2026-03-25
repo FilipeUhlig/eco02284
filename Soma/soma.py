@@ -10,19 +10,15 @@ Versão: 0.0.1
 num1 = 0
 num2 = 0
 r = 0
+i = 0
 
 #Entrada de dados
 
-num1 = float(input("Digite o primeiro número da soma: "))
+while i < 2:
+  num = (int(input(f"Digite o {i + 1}º número")))
+  r = r + num
+  i += 1
 
-num2 = float(input("Digite o segundo número da soma: "))
-
-#Processamento de dados
-
-r = num1 + num2
-
-#Saida de dados
-
-print(f"O resultado da soma entre {num1} e {num2} é {r}")
+print(f"O resultado da soma é {r}")
 
 input("Pressione enter para sair ...")
